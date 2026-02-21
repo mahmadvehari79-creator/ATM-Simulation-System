@@ -2,7 +2,10 @@
 users = {
     "1001": {"pin": "1234", "balance": 5000, "name": "Ali"},
     "1002": {"pin": "5678", "balance": 8000, "name": "Ahmad"},
-    "1003": {"pin": "0000", "balance": 12000, "name": "Sara"}
+    "1003": {"pin": "9999", "balance": 12000, "name": "Hassam"},
+    "1004": {"pin": "1010", "balance": 5000, "name": "Muneeb"},
+    "1005": {"pin": "1122", "balance": 8000, "name": "Ahmad Sharif"},
+    "1006": {"pin": "3344", "balance": 12000, "name": "Eman"}
 }
 
 # Step 1: Account check
