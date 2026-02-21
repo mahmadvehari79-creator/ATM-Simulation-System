@@ -15,7 +15,6 @@ Easy to Understand Code.
 How It Works (Step-by-Step)
 
 1. User Database
-2. 
 users = {
     "1001": {"pin": "1234", "balance": 5000, "name": "Ali"},
     ...
@@ -68,7 +67,6 @@ match choice:
 
 Displays current balance:
 
-
 print("Balance:", user["balance"])
 💰 Deposit
 
@@ -78,12 +76,10 @@ Must be greater than 0
 
 Adds to balance
 
-
 user["balance"] += amount
 💸 Withdraw
 
 Conditions:
-
 
 Amount must be positive
 
@@ -104,7 +100,6 @@ Shows a warning if the balance < 1000
 Breaks the loop and ends the program
 
 🛠️ Concepts Used
-
 
 Dictionary (data storage)
 
