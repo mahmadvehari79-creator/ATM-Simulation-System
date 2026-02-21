@@ -15,6 +15,7 @@ Easy to Understand Code.
 How It Works (Step-by-Step)
 
 1. User Database
+2. 
 users = {
     "1001": {"pin": "1234", "balance": 5000, "name": "Ali"},
     ...
@@ -33,6 +34,7 @@ Name
 👉 This acts like a mini database
 
 2. Account Verification
+3. 
 acc_no = input("Enter Account Number: ")
 
 Checks if the account exists
@@ -40,6 +42,7 @@ Checks if the account exists
 If not → "Account not found."
 
 3. PIN Authentication
+4. 
 while attempts < 3:
 
 User gets 3 chances
@@ -59,10 +62,12 @@ while True:
 Handled using:
 
 match choice:
+
 🔧 Functionalities
 ✅ Check Balance
 
 Displays current balance:
+
 
 print("Balance:", user["balance"])
 💰 Deposit
@@ -73,10 +78,12 @@ Must be greater than 0
 
 Adds to balance
 
+
 user["balance"] += amount
 💸 Withdraw
 
 Conditions:
+
 
 Amount must be positive
 
@@ -88,6 +95,8 @@ After withdrawal:
 
 Updates balance
 
+
+
 Shows a warning if the balance < 1000
 
 🚪 Exit
@@ -95,6 +104,7 @@ Shows a warning if the balance < 1000
 Breaks the loop and ends the program
 
 🛠️ Concepts Used
+
 
 Dictionary (data storage)
 
